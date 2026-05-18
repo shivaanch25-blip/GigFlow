@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: gigflow-backend
+    env: node
+    root: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    branch: main
+    plan: starter
