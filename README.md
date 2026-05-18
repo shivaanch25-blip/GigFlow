@@ -99,7 +99,7 @@ Open `http://localhost:5173` (Vite default) in your browser.
 - Start MongoDB (local or ensure Atlas connection).
 - Start backend in dev mode: `npm run dev` in `backend`.
 - Start frontend in dev mode: `npm run dev` in `frontend`.
-- Create a default admin via the backend start script (if configured).
+- The backend may seed a default admin only in development mode; use registration for production accounts.
 
 **Deployment (Render + Vercel)**
 

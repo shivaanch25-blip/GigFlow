@@ -47,7 +47,7 @@ Vite will start a dev server and print a local URL (e.g., `http://localhost:5173
 
 4. Create initial user
 
-When the backend starts it may create a default admin user depending on the startup script. Otherwise, register via the frontend `/register` page.
+When the backend starts in development mode it may create a default admin user. In production, that seed is disabled and you should register a user via the frontend `/register` page.
 
 5. Common troubleshooting
 
