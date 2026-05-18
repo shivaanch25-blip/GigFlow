@@ -101,10 +101,10 @@ Open `http://localhost:5173` (Vite default) in your browser.
 - Start frontend in dev mode: `npm run dev` in `frontend`.
 - The backend may seed a default admin only in development mode; use registration for production accounts.
 
-**Deployment (Render + Vercel)**
+**Deployment (Render + Netlify)**
 
 - Backend: deploy to Render with the `backend` folder as the service root. Use `npm run build` and `npm start`.
-- Frontend: deploy to Vercel from the `frontend` folder. Use `npm run build` and `dist` as the output directory.
+- Frontend: deploy to Netlify from the `frontend` folder. Use `npm run build` and `dist` as the output directory.
 - Database: use MongoDB Atlas. Set `MONGO_URI`, `JWT_SECRET`, and `CORS_ORIGIN` in the Render environment.
 
 **Screenshots**
