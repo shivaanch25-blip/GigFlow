@@ -105,6 +105,15 @@ Open `http://localhost:5173` (Vite default) in your browser.
 
 - Backend: deploy to Render with the `backend` folder as the service root. Use `npm run build` and `npm start`.
 - Frontend: deploy to Netlify from the `frontend` folder. Use `npm run build` and `dist` as the output directory.
+
+## Live Deployment
+
+Frontend (Netlify):
+https://dazzling-bublanina-5f194c.netlify.app
+
+Backend (Render):
+https://gigflow-5.onrender.com
+
 - Database: use MongoDB Atlas. Set `MONGO_URI`, `JWT_SECRET`, and `CORS_ORIGIN` in the Render environment.
 
 **Screenshots**
