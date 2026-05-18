@@ -109,11 +109,11 @@ Open `http://localhost:5173` (Vite default) in your browser.
 
 **Screenshots**
 
-_Add screenshots here before submission — examples:_
+## Screenshots
 
-- `screenshots/dashboard.png`
-- `screenshots/leads_list.png`
-- `screenshots/lead_form.png`
+![Dashboard](screenshots/Dashboard.png)
+![Leads List](screenshots/leads_list.png)
+![Lead Form](screenshots/lead_form.png)
 
 **Contribution**
 
